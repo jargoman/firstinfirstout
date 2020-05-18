@@ -1,0 +1,9 @@
+{% load mezzanine_tags %}
+<div class="panel panel-default cart-panel">
+<div class="panel-body">
+{% ifinstalled cartridge.shop %}
+{% include "shop/includes/user_panel.html" %}
+{% endifinstalled %}
+</div>
+</div>
+  
